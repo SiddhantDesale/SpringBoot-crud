@@ -27,24 +27,17 @@ A simple RESTful CRUD (Create, Read, Update, Delete) application built using **S
 
 ## 📁 Project Structure
 
-src
-├── main
-│ ├── java
-│ │ └── com.example.demo
-│ │ ├── DemoApplication.java
-│ │ ├── controller
-│ │ │ └── UserController.java
-│ │ ├── model
-│ │ │ └── User.java
-│ │ ├── repository
-│ │ │ └── UserRepository.java
-│ │ └── service
-│ │ └── UserService.java
-│ └── resources
-│ └── application.properties
-└── test
-└── java
-└── com.example.demo
+src/main/java/com/example/demo/
+├── DemoApplication.java
+├── controller/UserController.java
+├── model/User.java
+├── repository/UserRepository.java
+└── service/UserService.java
+
+src/main/resources/
+└── application.properties
+
+src/test/java/com/example/demo/
 └── DemoApplicationTests.java
 
 ---
