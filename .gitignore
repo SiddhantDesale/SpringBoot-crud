@@ -1,6 +1,5 @@
 # Maven build output
 /target/
-!.mvn/wrapper/maven-wrapper.jar
 
 # OS files
 .DS_Store
@@ -21,20 +20,18 @@ Thumbs.db
 *.iml
 *.ipr
 
-# NetBeans
+# VS Code
+.vscode/
+
+# NetBeans (optional)
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-# Gradle (just in case)
+# Gradle (optional)
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-# VS Code
-.vscode/
 
 # Help files
 HELP.md
